@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family:monospace;
+
+}
+.photo{
+    width: 7em;
+    height: 7em;
+    background-color: rgb(204, 156, 236);
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    
+
+}
+.contenair{
+    margin-top:10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.carte{
+    display: flex;
+    height: 320px;
+    width: 200px;
+    box-shadow: 0 4px 8px grey;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px 5px;
+}
+
+.carte:hover{
+    box-shadow: 0 4px 8px rgb(204, 156, 236);;
+}
+h2,h3{
+    margin: 0;2em;
+}
+.boxphoto{
+    background-color:lightpink;
+    text-align: center;
+    height: 25%;
+    border-radius: 5px 5px 0 0;
+}
+.info{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nom{
+    margin:3px ;
+color: rgb(67, 65, 65);
+}
+
+.job{
+margin-top:0em;
+color:lightpink;
+text-transform: uppercase;
+
+}
+.citation{
+color: rgb(89, 85, 85);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 0,3em;
+text-align: center;
+margin-bottom: 1em;
+}
+.buton{
+    margin-bottom: 1em;
+    text-align: center;
+}
+.bouton{
+    border: 2;
+    color:lightpink ;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+    cursor: pointer;  
+    background-color: white;
+    cursor: pointer;
+    transition: all 0,2s ease;
+    text-decoration: none;
+}
+
+.bouton:hover{
+    background-color: lightpink;
+    color: white;
+    
+}
+   
